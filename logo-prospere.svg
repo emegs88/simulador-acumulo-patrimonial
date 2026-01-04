@@ -1,0 +1,44 @@
+<svg width="280" height="75" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 75">
+  <!-- Stylized 'P' - Barra vertical vermelha -->
+  <rect x="8" y="6" width="18" height="63" fill="#dc2626"/>
+  
+  <!-- Barra horizontal superior do P (vermelha) -->
+  <rect x="8" y="6" width="42" height="18" fill="#dc2626"/>
+  
+  <!-- Swoosh branco - curva dinâmica que corta o P -->
+  <!-- Parte superior curvada -->
+  <path d="M 26 24
+           Q 30 24, 33 27
+           Q 36 30, 37 33
+           Q 36 36, 33 39
+           Q 30 42, 26 42
+           Q 28 39, 28 33
+           Q 28 27, 26 24 Z" 
+        fill="#ffffff"/>
+  
+  <!-- Ponta estendida do swoosh (flecha para direita) -->
+  <polygon points="37,33 48,36 37,39" fill="#ffffff"/>
+  
+  <!-- Barra vertical branca (parte inferior do swoosh dentro do P) -->
+  <rect x="24" y="42" width="5" height="27" fill="#ffffff"/>
+  
+  <!-- Texto: CONSÓRCIOS (cinza escuro para contraste no fundo branco) -->
+  <text x="62" y="30" 
+        font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" 
+        font-size="14" 
+        font-weight="400" 
+        fill="#4b5563" 
+        letter-spacing="2px">
+    CONSÓRCIOS
+  </text>
+  
+  <!-- Texto: PROSPERE (vermelho, maior, negrito) -->
+  <text x="62" y="54" 
+        font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" 
+        font-size="24" 
+        font-weight="700" 
+        fill="#dc2626" 
+        letter-spacing="2.5px">
+    PROSPERE
+  </text>
+</svg>
